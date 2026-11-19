@@ -1,0 +1,4 @@
+split,annotation_image_path,annotation_json_path,group_id,sample_id
+train,private/train/image1.png,private/train/image1.json,group_A,train_0001
+val,private/val/image2.png,private/val/image2.json,group_B,val_0001
+test,private/test/image3.png,private/test/image3.json,group_C,test_0001

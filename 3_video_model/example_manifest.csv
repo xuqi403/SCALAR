@@ -1,0 +1,2 @@
+sample_id,patient_id,video_path,frame_idx,annotation_image_path,annotation_json_path,crop_x1,crop_y1,crop_x2,crop_y2,split
+synthetic-0001,DEMO_001,/private/videos/example.mp4,50,/private/annotations/frame_0050.jpg,/private/annotations/frame_0050.json,100,80,400,380,train

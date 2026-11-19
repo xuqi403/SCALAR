@@ -1,0 +1,28 @@
+# SCALAR: unified runtime and test dependencies for modules 1–4.
+# Python 3.11 is recommended. Version ranges are compatible targets, NOT
+# an archival lock of the original research training environment.
+#
+# Install a hardware/CUDA-compatible torch + torchvision pair first using
+# https://pytorch.org/get-started/locally/ ; then install this file.
+# Official DINOv3 and the original YOLO detector may require additional
+# dependencies; install those from their own upstream repositories.
+
+# Numerical and tabular processing
+numpy>=1.24,<3.0
+pandas>=2.0,<3.0
+scipy>=1.11,<2.0
+
+# Ultrasound image and video I/O
+opencv-python>=4.8,<5.0
+Pillow>=10.0,<13.0
+
+# Deep learning (match the CUDA/PyTorch distribution)
+torch>=2.3,<3.0
+torchvision>=0.18,<1.0
+
+# Training, progress and optional diagnostic plotting
+matplotlib>=3.7,<4.0
+tqdm>=4.66,<5.0
+
+# Repository unit tests; remove if installing only the inference runtime
+pytest>=8.0,<10.0

@@ -1,0 +1,2 @@
+sample_id,patient_id,video_path,frame_idx,cache_path,split
+synthetic-0001,DEMO_001,/private/videos/example.mp4,50,/private/clip_cache/train/synthetic-0001.npz,train
